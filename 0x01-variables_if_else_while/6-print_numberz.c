@@ -1,19 +1,21 @@
 #include <stdio.h>
-
 /**
- * main - prints all single digit numbers of base 10 starting from 0
- *        only using putchar and without char variables.
+ * main - prints the alphabet in lowercase, and then in uppercase
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int num;
+	char letter;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
 
 	putchar('\n');
 
 	return (0);
+
 }
