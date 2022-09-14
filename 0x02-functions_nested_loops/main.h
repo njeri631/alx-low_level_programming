@@ -1,1 +1,1 @@
-Putchar
+int_putchar(char c);
