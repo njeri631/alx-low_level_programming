@@ -16,6 +16,7 @@ int main(void)
 			if (h == 100)
 			{
 				printf("Buzz");
+				printf("\n");
 			}
 			else
 				printf("Buzz ");
